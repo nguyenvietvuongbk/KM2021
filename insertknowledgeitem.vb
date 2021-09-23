@@ -23,7 +23,7 @@ Public Class insertknowledgeitem
         'add coment 23/9/2021
         'add other coment 
         If txtnodetext.Text = "" Then
-            MsgBox(" nodetext must not be empty")
+            MsgBox(" nodetext must not be empty!!!")
             Exit Sub
             Exit Sub
                                        
