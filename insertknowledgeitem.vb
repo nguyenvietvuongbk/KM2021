@@ -21,9 +21,12 @@ Public Class insertknowledgeitem
     Public hyperlinkstring As String
     Private Sub OK_Button_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OK_Button.Click
         'add coment 23/9/2021
+        'add other coment 
         If txtnodetext.Text = "" Then
             MsgBox(" nodetext must not be empty")
             Exit Sub
+            Exit Sub
+                                       
         Else
             'childnodetype = txtchildnodetype.Text
             nodetext = txtnodetext.Text
