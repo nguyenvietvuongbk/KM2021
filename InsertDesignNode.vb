@@ -1,4 +1,4 @@
-﻿Imports System.Xml
+Imports System.Xml
 Public Class InsertDesignNode
     Public pressbutton As String
     Public designtitle As String
