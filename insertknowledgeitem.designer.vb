@@ -50,7 +50,7 @@ Partial Class insertknowledgeitem
         Me.TableLayoutPanel1.ColumnCount = 2
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(270, 34)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(138, 133)
         Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
@@ -61,7 +61,7 @@ Partial Class insertknowledgeitem
         'OK_Button
         '
         Me.OK_Button.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.OK_Button.Location = New System.Drawing.Point(469, 225)
+        Me.OK_Button.Location = New System.Drawing.Point(442, 82)
         Me.OK_Button.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.OK_Button.Name = "OK_Button"
         Me.OK_Button.Size = New System.Drawing.Size(84, 39)
@@ -72,7 +72,7 @@ Partial Class insertknowledgeitem
         '
         Me.Cancel_Button.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Cancel_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.Cancel_Button.Location = New System.Drawing.Point(469, 151)
+        Me.Cancel_Button.Location = New System.Drawing.Point(442, 18)
         Me.Cancel_Button.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Cancel_Button.Name = "Cancel_Button"
         Me.Cancel_Button.Size = New System.Drawing.Size(84, 27)
@@ -95,7 +95,7 @@ Partial Class insertknowledgeitem
         '
         Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(469, 32)
+        Me.Label1.Location = New System.Drawing.Point(442, 32)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(57, 15)
@@ -109,13 +109,13 @@ Partial Class insertknowledgeitem
         Me.txtnodetext.Location = New System.Drawing.Point(13, 29)
         Me.txtnodetext.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtnodetext.Name = "txtnodetext"
-        Me.txtnodetext.Size = New System.Drawing.Size(443, 23)
+        Me.txtnodetext.Size = New System.Drawing.Size(416, 23)
         Me.txtnodetext.TabIndex = 0
         '
         'Button1
         '
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button1.Location = New System.Drawing.Point(525, 29)
+        Me.Button1.Location = New System.Drawing.Point(498, 29)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(28, 24)
@@ -127,7 +127,7 @@ Partial Class insertknowledgeitem
         '
         Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(469, 71)
+        Me.Label2.Location = New System.Drawing.Point(442, 71)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(70, 15)
@@ -138,7 +138,7 @@ Partial Class insertknowledgeitem
         '
         Me.bttnselectlink.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.bttnselectlink.Enabled = False
-        Me.bttnselectlink.Location = New System.Drawing.Point(469, 93)
+        Me.bttnselectlink.Location = New System.Drawing.Point(442, 93)
         Me.bttnselectlink.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.bttnselectlink.Name = "bttnselectlink"
         Me.bttnselectlink.Size = New System.Drawing.Size(84, 23)
@@ -148,8 +148,10 @@ Partial Class insertknowledgeitem
         '
         'GroupBox1
         '
-        Me.GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GroupBox1.Controls.Add(Me.OK_Button)
+        Me.GroupBox1.Controls.Add(Me.Cancel_Button)
         Me.GroupBox1.Controls.Add(Me.opt_workingdesignnode)
         Me.GroupBox1.Controls.Add(Me.opt_schedulenode)
         Me.GroupBox1.Controls.Add(Me.opt_deploypath)
@@ -158,12 +160,11 @@ Partial Class insertknowledgeitem
         Me.GroupBox1.Controls.Add(Me.opt_documentgroup)
         Me.GroupBox1.Controls.Add(Me.opt_hyperlinktype)
         Me.GroupBox1.Controls.Add(Me.opt_generaltype)
-        Me.GroupBox1.Controls.Add(Me.TableLayoutPanel1)
-        Me.GroupBox1.Location = New System.Drawing.Point(13, 133)
+        Me.GroupBox1.Location = New System.Drawing.Point(1, 153)
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.GroupBox1.Size = New System.Drawing.Size(443, 141)
+        Me.GroupBox1.Size = New System.Drawing.Size(534, 141)
         Me.GroupBox1.TabIndex = 10
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "KnowLeadge Item Type"
@@ -260,11 +261,12 @@ Partial Class insertknowledgeitem
         '
         'txtlink
         '
-        Me.txtlink.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.txtlink.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtlink.Location = New System.Drawing.Point(13, 71)
         Me.txtlink.Name = "txtlink"
-        Me.txtlink.Size = New System.Drawing.Size(444, 45)
+        Me.txtlink.Size = New System.Drawing.Size(417, 74)
         Me.txtlink.TabIndex = 11
         Me.txtlink.Text = ""
         '
@@ -274,15 +276,14 @@ Partial Class insertknowledgeitem
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.Cancel_Button
-        Me.ClientSize = New System.Drawing.Size(566, 284)
-        Me.Controls.Add(Me.Cancel_Button)
-        Me.Controls.Add(Me.OK_Button)
+        Me.ClientSize = New System.Drawing.Size(539, 305)
         Me.Controls.Add(Me.txtlink)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.bttnselectlink)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.txtnodetext)
+        Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lblnodetype)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
