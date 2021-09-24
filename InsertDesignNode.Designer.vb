@@ -67,7 +67,7 @@ Partial Class InsertDesignNode
         Me.txtworktitle.Location = New System.Drawing.Point(86, 9)
         Me.txtworktitle.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtworktitle.Name = "txtworktitle"
-        Me.txtworktitle.Size = New System.Drawing.Size(529, 23)
+        Me.txtworktitle.Size = New System.Drawing.Size(557, 23)
         Me.txtworktitle.TabIndex = 1
         '
         'Label2
@@ -88,14 +88,14 @@ Partial Class InsertDesignNode
         Me.txtworkdescription.Multiline = True
         Me.txtworkdescription.Name = "txtworkdescription"
         Me.txtworkdescription.ScrollBars = System.Windows.Forms.ScrollBars.Both
-        Me.txtworkdescription.Size = New System.Drawing.Size(603, 195)
+        Me.txtworkdescription.Size = New System.Drawing.Size(631, 157)
         Me.txtworkdescription.TabIndex = 3
         '
         'ckfinish
         '
         Me.ckfinish.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ckfinish.AutoSize = True
-        Me.ckfinish.Location = New System.Drawing.Point(384, 39)
+        Me.ckfinish.Location = New System.Drawing.Point(412, 39)
         Me.ckfinish.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.ckfinish.Name = "ckfinish"
         Me.ckfinish.Size = New System.Drawing.Size(57, 19)
@@ -106,7 +106,7 @@ Partial Class InsertDesignNode
         'bttnOK
         '
         Me.bttnOK.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.bttnOK.Location = New System.Drawing.Point(473, 423)
+        Me.bttnOK.Location = New System.Drawing.Point(501, 360)
         Me.bttnOK.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.bttnOK.Name = "bttnOK"
         Me.bttnOK.Size = New System.Drawing.Size(142, 30)
@@ -117,7 +117,7 @@ Partial Class InsertDesignNode
         'bttnCANCEL
         '
         Me.bttnCANCEL.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.bttnCANCEL.Location = New System.Drawing.Point(473, 394)
+        Me.bttnCANCEL.Location = New System.Drawing.Point(501, 331)
         Me.bttnCANCEL.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.bttnCANCEL.Name = "bttnCANCEL"
         Me.bttnCANCEL.Size = New System.Drawing.Size(142, 23)
@@ -131,13 +131,13 @@ Partial Class InsertDesignNode
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(603, 126)
+        Me.Panel1.Size = New System.Drawing.Size(631, 101)
         Me.Panel1.TabIndex = 7
         '
         'bttn_addlink
         '
         Me.bttn_addlink.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.bttn_addlink.Location = New System.Drawing.Point(11, 394)
+        Me.bttn_addlink.Location = New System.Drawing.Point(11, 331)
         Me.bttn_addlink.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.bttn_addlink.Name = "bttn_addlink"
         Me.bttn_addlink.Size = New System.Drawing.Size(106, 30)
@@ -148,7 +148,7 @@ Partial Class InsertDesignNode
         'bttnremovelink
         '
         Me.bttnremovelink.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.bttnremovelink.Location = New System.Drawing.Point(147, 394)
+        Me.bttnremovelink.Location = New System.Drawing.Point(147, 331)
         Me.bttnremovelink.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.bttnremovelink.Name = "bttnremovelink"
         Me.bttnremovelink.Size = New System.Drawing.Size(100, 30)
@@ -159,7 +159,7 @@ Partial Class InsertDesignNode
         'bttnmodifylink
         '
         Me.bttnmodifylink.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.bttnmodifylink.Location = New System.Drawing.Point(279, 394)
+        Me.bttnmodifylink.Location = New System.Drawing.Point(279, 331)
         Me.bttnmodifylink.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.bttnmodifylink.Name = "bttnmodifylink"
         Me.bttnmodifylink.Size = New System.Drawing.Size(96, 30)
@@ -176,7 +176,7 @@ Partial Class InsertDesignNode
         'Button1
         '
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Button1.Location = New System.Drawing.Point(279, 430)
+        Me.Button1.Location = New System.Drawing.Point(279, 367)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(137, 23)
@@ -187,7 +187,7 @@ Partial Class InsertDesignNode
         'Button2
         '
         Me.Button2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Button2.Location = New System.Drawing.Point(11, 430)
+        Me.Button2.Location = New System.Drawing.Point(11, 367)
         Me.Button2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(104, 23)
@@ -198,7 +198,7 @@ Partial Class InsertDesignNode
         'Button3
         '
         Me.Button3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Button3.Location = New System.Drawing.Point(123, 430)
+        Me.Button3.Location = New System.Drawing.Point(123, 367)
         Me.Button3.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(148, 23)
@@ -210,7 +210,7 @@ Partial Class InsertDesignNode
         '
         Me.Label3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(500, 39)
+        Me.Label3.Location = New System.Drawing.Point(528, 39)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(113, 15)
@@ -220,10 +220,10 @@ Partial Class InsertDesignNode
         'StatusStrip1
         '
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 460)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 397)
         Me.StatusStrip1.Name = "StatusStrip1"
         Me.StatusStrip1.Padding = New System.Windows.Forms.Padding(1, 0, 16, 0)
-        Me.StatusStrip1.Size = New System.Drawing.Size(626, 22)
+        Me.StatusStrip1.Size = New System.Drawing.Size(654, 22)
         Me.StatusStrip1.TabIndex = 15
         Me.StatusStrip1.Text = "StatusStrip1"
         '
@@ -258,8 +258,8 @@ Partial Class InsertDesignNode
         'SplitContainer1.Panel2
         '
         Me.SplitContainer1.Panel2.Controls.Add(Me.Panel1)
-        Me.SplitContainer1.Size = New System.Drawing.Size(603, 326)
-        Me.SplitContainer1.SplitterDistance = 195
+        Me.SplitContainer1.Size = New System.Drawing.Size(631, 263)
+        Me.SplitContainer1.SplitterDistance = 157
         Me.SplitContainer1.SplitterWidth = 5
         Me.SplitContainer1.TabIndex = 16
         '
@@ -267,7 +267,7 @@ Partial Class InsertDesignNode
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(626, 482)
+        Me.ClientSize = New System.Drawing.Size(654, 419)
         Me.Controls.Add(Me.SplitContainer1)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.Label3)
