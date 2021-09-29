@@ -1,3 +1,4 @@
+
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Editknowledgeitem
     Inherits System.Windows.Forms.Form
@@ -52,7 +53,7 @@ Partial Class Editknowledgeitem
         Me.TableLayoutPanel1.ColumnCount = 2
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(351, -30)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(354, -17)
         Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
@@ -63,8 +64,8 @@ Partial Class Editknowledgeitem
         '
         'OK_Button
         '
-        Me.OK_Button.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.OK_Button.Location = New System.Drawing.Point(452, 221)
+        Me.OK_Button.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.OK_Button.Location = New System.Drawing.Point(455, 239)
         Me.OK_Button.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.OK_Button.Name = "OK_Button"
         Me.OK_Button.Size = New System.Drawing.Size(93, 47)
@@ -73,9 +74,9 @@ Partial Class Editknowledgeitem
         '
         'Cancel_Button
         '
-        Me.Cancel_Button.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Cancel_Button.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Cancel_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.Cancel_Button.Location = New System.Drawing.Point(452, 171)
+        Me.Cancel_Button.Location = New System.Drawing.Point(455, 189)
         Me.Cancel_Button.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Cancel_Button.Name = "Cancel_Button"
         Me.Cancel_Button.Size = New System.Drawing.Size(93, 36)
@@ -89,7 +90,7 @@ Partial Class Editknowledgeitem
         Me.txtknowledgetext.Location = New System.Drawing.Point(110, 6)
         Me.txtknowledgetext.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtknowledgetext.Name = "txtknowledgetext"
-        Me.txtknowledgetext.Size = New System.Drawing.Size(435, 23)
+        Me.txtknowledgetext.Size = New System.Drawing.Size(438, 23)
         Me.txtknowledgetext.TabIndex = 1
         '
         'Label1
@@ -119,7 +120,7 @@ Partial Class Editknowledgeitem
         Me.txttype.Location = New System.Drawing.Point(110, 35)
         Me.txttype.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txttype.Name = "txttype"
-        Me.txttype.Size = New System.Drawing.Size(332, 23)
+        Me.txttype.Size = New System.Drawing.Size(335, 23)
         Me.txttype.TabIndex = 4
         '
         'Label3
@@ -139,12 +140,12 @@ Partial Class Editknowledgeitem
         Me.txtchildtype.Location = New System.Drawing.Point(110, 68)
         Me.txtchildtype.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtchildtype.Name = "txtchildtype"
-        Me.txtchildtype.Size = New System.Drawing.Size(435, 23)
+        Me.txtchildtype.Size = New System.Drawing.Size(438, 23)
         Me.txtchildtype.TabIndex = 6
         '
         'GroupBox1
         '
-        Me.GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox1.Controls.Add(Me.txtfontsize)
         Me.GroupBox1.Controls.Add(Me.cbfontname)
@@ -154,11 +155,11 @@ Partial Class Editknowledgeitem
         Me.GroupBox1.Controls.Add(Me.ckfontitalic)
         Me.GroupBox1.Controls.Add(Me.ckfontbold)
         Me.GroupBox1.Controls.Add(Me.bttnbackcolor)
-        Me.GroupBox1.Location = New System.Drawing.Point(14, 157)
+        Me.GroupBox1.Location = New System.Drawing.Point(14, 180)
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.GroupBox1.Size = New System.Drawing.Size(419, 119)
+        Me.GroupBox1.Size = New System.Drawing.Size(422, 114)
         Me.GroupBox1.TabIndex = 7
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Format Node"
@@ -261,7 +262,7 @@ Partial Class Editknowledgeitem
         'TextBox1
         '
         Me.TextBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox1.Location = New System.Drawing.Point(450, 35)
+        Me.TextBox1.Location = New System.Drawing.Point(453, 35)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(95, 23)
@@ -274,7 +275,7 @@ Partial Class Editknowledgeitem
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.hperlink.Location = New System.Drawing.Point(110, 100)
         Me.hperlink.Name = "hperlink"
-        Me.hperlink.Size = New System.Drawing.Size(435, 51)
+        Me.hperlink.Size = New System.Drawing.Size(438, 74)
         Me.hperlink.TabIndex = 11
         Me.hperlink.Text = ""
         '
@@ -284,7 +285,7 @@ Partial Class Editknowledgeitem
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.Cancel_Button
-        Me.ClientSize = New System.Drawing.Size(556, 290)
+        Me.ClientSize = New System.Drawing.Size(559, 303)
         Me.Controls.Add(Me.hperlink)
         Me.Controls.Add(Me.Cancel_Button)
         Me.Controls.Add(Me.OK_Button)
