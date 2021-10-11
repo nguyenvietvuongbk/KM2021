@@ -258,6 +258,11 @@ Public Class InsertDesignNode
             'MsgBox(resourcelinkstring)
             Dim rsname As String = LVF.SelectedItems(0).SubItems(1).Text
             Dim rslink As String = LVF.SelectedItems(0).SubItems(2).Text
+
+            Dim style = MsgBoxStyle.YesNo
+            Dim response = MsgBox("Xóa link này không, ấn Yes để xóa", style, rsname)
+            If response = MsgBoxResult.No Then Exit Sub
+
             AL.deleteresourcelink(resourcelinkstring, rsname, rslink)
             'MsgBox(resourcelinkstring)
             ShowresourceLink(LVF, resourcelinkstring)
@@ -265,6 +270,19 @@ Public Class InsertDesignNode
             MsgBox("you need select an item")
         End If
     End Sub
+
+    'Private Sub bttnremovelink_Click(sender As Object, e As EventArgs) Handles bttnremovelink.Click
+    '    If LVF.SelectedItems IsNot Nothing Then
+    '        'MsgBox(resourcelinkstring)
+    '        Dim rsname As String = LVF.SelectedItems(0).SubItems(1).Text
+    '        Dim rslink As String = LVF.SelectedItems(0).SubItems(2).Text
+    '        AL.deleteresourcelink(resourcelinkstring, rsname, rslink)
+            'MsgBox(resourcelinkstring)
+    '        ShowresourceLink(LVF, resourcelinkstring)
+    '    Else
+    '        MsgBox("you need select an item")
+    '    End If
+    'End Sub
     'select 
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
         selectdesignfolder.folderselect = folderfordesignnode
