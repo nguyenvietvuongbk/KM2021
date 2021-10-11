@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class designnodeaddlink
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()>
+    <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,18 +20,18 @@ Partial Class designnodeaddlink
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()>
+    <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtresourcename = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.txtresourcelink = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.opt_folder = New System.Windows.Forms.RadioButton()
         Me.opt_file = New System.Windows.Forms.RadioButton()
+        Me.txtresourcelink = New System.Windows.Forms.RichTextBox()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -66,16 +66,6 @@ Partial Class designnodeaddlink
         Me.Button1.Text = "Browser"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'txtresourcelink
-        '
-        Me.txtresourcelink.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtresourcelink.Location = New System.Drawing.Point(90, 37)
-        Me.txtresourcelink.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.txtresourcelink.Name = "txtresourcelink"
-        Me.txtresourcelink.Size = New System.Drawing.Size(424, 23)
-        Me.txtresourcelink.TabIndex = 3
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
@@ -94,11 +84,11 @@ Partial Class designnodeaddlink
         Me.GroupBox1.Controls.Add(Me.Button2)
         Me.GroupBox1.Controls.Add(Me.opt_folder)
         Me.GroupBox1.Controls.Add(Me.opt_file)
-        Me.GroupBox1.Location = New System.Drawing.Point(2, 68)
+        Me.GroupBox1.Location = New System.Drawing.Point(2, 98)
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.GroupBox1.Size = New System.Drawing.Size(594, 58)
+        Me.GroupBox1.Size = New System.Drawing.Size(594, 57)
         Me.GroupBox1.TabIndex = 7
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "browser option"
@@ -106,10 +96,10 @@ Partial Class designnodeaddlink
         'Button3
         '
         Me.Button3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button3.Location = New System.Drawing.Point(384, 18)
+        Me.Button3.Location = New System.Drawing.Point(373, 17)
         Me.Button3.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(96, 25)
+        Me.Button3.Size = New System.Drawing.Size(96, 34)
         Me.Button3.TabIndex = 8
         Me.Button3.Text = "CANCEL"
         Me.Button3.UseVisualStyleBackColor = True
@@ -117,10 +107,10 @@ Partial Class designnodeaddlink
         'Button2
         '
         Me.Button2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button2.Location = New System.Drawing.Point(488, 16)
+        Me.Button2.Location = New System.Drawing.Point(490, 17)
         Me.Button2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(96, 25)
+        Me.Button2.Size = New System.Drawing.Size(96, 34)
         Me.Button2.TabIndex = 7
         Me.Button2.Text = "OK"
         Me.Button2.UseVisualStyleBackColor = True
@@ -129,7 +119,7 @@ Partial Class designnodeaddlink
         '
         Me.opt_folder.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.opt_folder.AutoSize = True
-        Me.opt_folder.Location = New System.Drawing.Point(286, 21)
+        Me.opt_folder.Location = New System.Drawing.Point(288, 20)
         Me.opt_folder.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.opt_folder.Name = "opt_folder"
         Me.opt_folder.Size = New System.Drawing.Size(58, 19)
@@ -142,7 +132,7 @@ Partial Class designnodeaddlink
         Me.opt_file.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.opt_file.AutoSize = True
         Me.opt_file.Checked = True
-        Me.opt_file.Location = New System.Drawing.Point(191, 22)
+        Me.opt_file.Location = New System.Drawing.Point(193, 20)
         Me.opt_file.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.opt_file.Name = "opt_file"
         Me.opt_file.Size = New System.Drawing.Size(43, 19)
@@ -151,19 +141,28 @@ Partial Class designnodeaddlink
         Me.opt_file.Text = "File"
         Me.opt_file.UseVisualStyleBackColor = True
         '
+        'txtresourcelink
+        '
+        Me.txtresourcelink.Location = New System.Drawing.Point(90, 37)
+        Me.txtresourcelink.Name = "txtresourcelink"
+        Me.txtresourcelink.Size = New System.Drawing.Size(424, 53)
+        Me.txtresourcelink.TabIndex = 8
+        Me.txtresourcelink.Text = ""
+        '
         'designnodeaddlink
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(609, 138)
+        Me.ClientSize = New System.Drawing.Size(609, 155)
+        Me.Controls.Add(Me.txtresourcelink)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.txtresourcelink)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.txtresourcename)
         Me.Controls.Add(Me.Label1)
         Me.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Name = "designnodeaddlink"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "designnodeaddlink"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
@@ -174,11 +173,11 @@ Partial Class designnodeaddlink
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents txtresourcename As System.Windows.Forms.TextBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents txtresourcelink As System.Windows.Forms.TextBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents opt_folder As System.Windows.Forms.RadioButton
     Friend WithEvents opt_file As System.Windows.Forms.RadioButton
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents txtresourcelink As RichTextBox
 End Class
