@@ -52,13 +52,13 @@ Partial Class designnodeaddlink
         Me.txtresourcename.Location = New System.Drawing.Point(90, 6)
         Me.txtresourcename.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.txtresourcename.Name = "txtresourcename"
-        Me.txtresourcename.Size = New System.Drawing.Size(506, 23)
+        Me.txtresourcename.Size = New System.Drawing.Size(485, 23)
         Me.txtresourcename.TabIndex = 1
         '
         'Button1
         '
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button1.Location = New System.Drawing.Point(522, 37)
+        Me.Button1.Location = New System.Drawing.Point(501, 37)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(74, 25)
@@ -78,17 +78,17 @@ Partial Class designnodeaddlink
         '
         'GroupBox1
         '
-        Me.GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox1.Controls.Add(Me.Button3)
         Me.GroupBox1.Controls.Add(Me.Button2)
         Me.GroupBox1.Controls.Add(Me.opt_folder)
         Me.GroupBox1.Controls.Add(Me.opt_file)
-        Me.GroupBox1.Location = New System.Drawing.Point(2, 98)
+        Me.GroupBox1.Location = New System.Drawing.Point(2, 107)
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.GroupBox1.Size = New System.Drawing.Size(594, 57)
+        Me.GroupBox1.Size = New System.Drawing.Size(573, 57)
         Me.GroupBox1.TabIndex = 7
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "browser option"
@@ -96,7 +96,7 @@ Partial Class designnodeaddlink
         'Button3
         '
         Me.Button3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button3.Location = New System.Drawing.Point(373, 17)
+        Me.Button3.Location = New System.Drawing.Point(352, 17)
         Me.Button3.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(96, 34)
@@ -107,7 +107,7 @@ Partial Class designnodeaddlink
         'Button2
         '
         Me.Button2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button2.Location = New System.Drawing.Point(490, 17)
+        Me.Button2.Location = New System.Drawing.Point(469, 17)
         Me.Button2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(96, 34)
@@ -119,7 +119,7 @@ Partial Class designnodeaddlink
         '
         Me.opt_folder.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.opt_folder.AutoSize = True
-        Me.opt_folder.Location = New System.Drawing.Point(288, 20)
+        Me.opt_folder.Location = New System.Drawing.Point(267, 20)
         Me.opt_folder.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.opt_folder.Name = "opt_folder"
         Me.opt_folder.Size = New System.Drawing.Size(58, 19)
@@ -132,7 +132,7 @@ Partial Class designnodeaddlink
         Me.opt_file.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.opt_file.AutoSize = True
         Me.opt_file.Checked = True
-        Me.opt_file.Location = New System.Drawing.Point(193, 20)
+        Me.opt_file.Location = New System.Drawing.Point(172, 20)
         Me.opt_file.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.opt_file.Name = "opt_file"
         Me.opt_file.Size = New System.Drawing.Size(43, 19)
@@ -143,9 +143,12 @@ Partial Class designnodeaddlink
         '
         'txtresourcelink
         '
+        Me.txtresourcelink.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtresourcelink.Location = New System.Drawing.Point(90, 37)
         Me.txtresourcelink.Name = "txtresourcelink"
-        Me.txtresourcelink.Size = New System.Drawing.Size(424, 53)
+        Me.txtresourcelink.Size = New System.Drawing.Size(403, 68)
         Me.txtresourcelink.TabIndex = 8
         Me.txtresourcelink.Text = ""
         '
@@ -153,7 +156,7 @@ Partial Class designnodeaddlink
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(609, 155)
+        Me.ClientSize = New System.Drawing.Size(588, 170)
         Me.Controls.Add(Me.txtresourcelink)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label2)
